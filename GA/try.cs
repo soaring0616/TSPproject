@@ -1,8 +1,16 @@
 using System;
 using System.Linq;
+using System.IO;
+
 
 public class Example{
+  
+
    public static void Main(){
+      // built-in cities
+      float[][] cities = new float [10][];
+
+
       int generation=20,size=10;   // note generation <= size!/2
       Random rnd = new Random();
       int[] array = new int[size];
